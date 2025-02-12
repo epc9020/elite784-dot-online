@@ -1,0 +1,21 @@
+body {
+  background:black;
+  color:white;
+}
+
+h1 {
+  font-family:"vcr-mono";
+}
+
+@font-face {
+  font-family:"vcr-mono";
+  src: url("/fonts/VCR_OSD_MONO.ttf");
+}
+
+a:link {
+  color:lightblue;
+}
+
+a:visited {
+  color: lightblue;
+}

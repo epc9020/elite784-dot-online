@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Updates</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="icon" href="/favicon.gif"/>
+  </head>
+  <body>
+    <header>
+      <a href="/mainhomepage"><img src="/header images/headerUPDATE.gif"></a>
+      <div class="header-container"></div>
+        <script>
+        (async function () {
+          const headerHTMLRequest = await fetch('/header.html');
+          const headerHTML = await headerHTMLRequest.text();
+          document.querySelector('.header-container').innerHTML = headerHTML;
+        })();
+      </script>
+    </header>
+    <style>
+    { margin: 0; padding: 0; }
+
+    html { 
+        background: url('/background.gif') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    </style>
+    <!--MAIN PAGE///////////////////MAIN PAGE///////////////////MAIN PAGE-->
+    <main style = "position:relative;left:8px;top:2px;">
+  
+      <h1>BETA 0.1.2 (uhhh i forgot)</h1>
+      <p>I've put some code I found at <a href="https://stackoverflow.com/questions/53310995/is-there-a-quicker-way-to-update-all-pages-in-a-html-website">stack overflow</a>.<br>
+      Made it so that buttons flash whenever theres something new in that section!<br>
+      VHS THINGS section under construction and other things.<br>
+      Background and body background<br>
+      Made the top banner thing change in-between pages!<br>
+      New page icon! (It's in your tabs section of the browser, animated version only in Firefox!)<br>
+      Made a seperator.<br>
+      Cool sites section, that's new!<br>
+      You know what's also new, I organized my files. (took me long enough.)<br>
+      Moved the main tag 8 pixels to the left.<br>
+      Making more things</p>
+
+  
+  
+    </main>
+  <!--END OF PAGE/////////////////END OF PAGE///////////////////END OF PAGE-->
+    <footer class="footer-container">
+      <script>
+        (async function () {
+          const headerHTMLRequest = await fetch('/footer.html');
+          const headerHTML = await headerHTMLRequest.text();
+          document.querySelector('.footer-container').innerHTML = headerHTML;
+        })();
+      </script>
+    </footer>
+  </body>
+</html>
+

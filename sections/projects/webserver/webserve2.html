@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>webserver2 - ELITE784[dot]Online</title>
+        <link href="/style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <span class="vcrTITLE">webserver2 - i can serve my own websites</span>
+        <br />all this time i could've used argo tunnels... (thanks again Meeg! ^^) (written 00:39 AST, posted)
+        <br />
+        <img src="/images/projects/webserv/theserver.jpg" style="max-width: 400px;min-width: 240px;" alt="A computer next to an internet router, which is serving as a home web server">
+        <h2>up to speed</h2>
+        <p>for the last few months, i've been struggling with <i>dynamic ip</i>. for those that dont know what this is, here's my explenation on what that is.<br><br>
+        a dynamic ip address is a constantly changing ip address set by your internet service provider (isp for short). 
+        this is a problem when trying to self host your own server.  
+        dynamic dns (ddns for short) aims to solve this problem by using a program that reports the current public facing ip address to the ddns server, 
+        and the ddns provider changes the dns record to match the current ip of the server. i'm writing this very late, so if that didn't make sense, 
+        here's a visual diagram that shows how ddns works.</p><br>click on the image for fullscreen!!<br>
+        <img src="/images/projects/webserv/ddns.jpeg" width="400" alt="A diagram showing how Dynamic DNS works." onclick="open('/images/projects/webserv/ddns.jpeg', window, self)"><br>
+        <p>uhh anyways..</p>
+        <h2>the better solution, under my nose the entire time</h2>
+        <p>a peer on a protogen discord (hey Meeg!) introduced me to tunnels on cloudflare, which is like ddns but much more easier (in my experience). im suprised i never
+            found out about this, since i use cloudflare on all my domains. using these "<i>tunnels</i>", i was able to easily make a subdomain to my home server!
+        </p>
+        <img src="/images/projects/webserv/cloudflared.jpg" width="400" alt="A terminal reporting that cloudflared was installed successfully to the server"><br>
+        <p>now that i've figured this out, i can figure out other cool web server stuff i can do! keep watch for new stuff on the web server! also please note, 
+            that due to a nightly problem with my router i cant resolve, dont expect to be able to connect to the web server during the night here over on the 
+            AST/GMT -0400 time zone!</p>
+        
+
+    </body>
+</html>
