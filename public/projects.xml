@@ -54,5 +54,12 @@
 			<description>i implemented a simple script that reports the line status of the server</description>
 			<pubDate>Wed, 15 Jan 2025 @737</pubDate>
 		</item>
+		<item>
+			<title>webserverSP1-1.html - (an attempt at) running an aim server...</title>
+			<link>https://elite784.online/sections/projects/webserver/aim/webserve-sp1-1.html</link>
+			<guid>https://elite784.online/sections/projects/webserver/aim/webserve-sp1-1.html</guid>
+			<description>pain, suffering, and other negative things happen while i try to run an aim server.</description>
+			<pubDate>Thu, 13 Feb 2025 @817</pubDate>
+		</item>
 	</channel>
 </rss>
