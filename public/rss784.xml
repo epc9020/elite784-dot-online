@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet type="text/css" href="/rss.css"?>
 <rss version="2.0">
   <channel>
     <title>elite784's web logs!</title>
     <link>https://elite784.online/homepage</link>
-    <description>another really simple syndication feed of web logs on the internet</description>
+    <description>another really simple syndication feed of web logs from somebody on the internet. copy the link to this page to your prefered rss syndicator to subscribe!</description>
     <language>en-us</language>
     <item>
     <title>im building a small tv station and the fcc cant do shit about it!!</title>
