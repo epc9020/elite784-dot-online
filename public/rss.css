@@ -41,7 +41,7 @@ item comments {
 
 item {
 	color: #ffffff;
-	border: 4px ridge #00b7ff;
+	border: 4px outset #00b7ff;
 	padding: 8px;
 	margin: 4px;
 }
