@@ -40,5 +40,5 @@ css files/*
 css/*
 buttons/*
 public/.gitignore
-egg.xml
-rss.css
+/egg.xml
+/rss.css
