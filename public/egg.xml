@@ -2,15 +2,21 @@
 <?xml-stylesheet type="text/css" href="/css/eggrss.css"?>
 <rss version="2.0">
   <channel>
-    <title>elite784's egg log...</title>
-    <link>https://elite784.online/homepage</link>
-    <description>this is the rss feed for updates on my egg.</description>
-    <language>en-us</language>
+      <title>elite784's egg log...</title>
+      <link>https://elite784.online/homepage</link>
+      <description>this is the rss feed for updates on my egg.</description>
+      <language>en-us</language>
     <item>
       <title>i have to pretend this egg is my child</title>
       <link>https://elite784.online/sections/blogs/egg/1.html</link>
 		  <pubDate>Mon, 3 Mar 2025 @629</pubDate>
 		  <description>for a grade</description>
+    </item>
+    <item>
+      <title>i am still pretending this egg is my child</title>
+      <link>https://elite784.online/sections/blogs/egg/2.html</link>
+      <pubDate>Wen, 5 Mar 2025 @783</pubDate>
+      <description>taught my egg how to [tinker] with electronics, and left my egg with a caretaker since i was sick for a whole week</description>
     </item>
   </channel>
 </rss>
