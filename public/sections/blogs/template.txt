@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/style.css">
+        <title>the egg 2 - ELITE784[dot]Online</title>
+    </head>
+    <body>
+        <h1>this is the title</h1>
+        <span>this is when i wrote it</span>
+        <p>this is where my thoughts go</p>
+        <img src="/images/egglog/egg1.JPG" height="200" alt="this is where an image goes, followed by alt text, such as this one"><br>
+        <span>optional description</span>
+    </body>
+    <!-- below is the required style stuff so it looks good in my boxes -->
+    <style>
+        p {
+            margin-right:20px;
+        }
+        span {
+            color:lightgray;
+            font-size:15px;
+        }
+    </style>
+</html>
