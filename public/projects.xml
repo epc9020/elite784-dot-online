@@ -39,23 +39,21 @@
 		<item>
 			<title>webserver2.html - i can host my own sites now!</title>
 			<link>https://elite784.online/sections/projects/webserver/webserve2.html</link>
-			<guid>https://elite784.online/sections/projects/webserver/webserve2.html</guid>
-			<description>i finally figured out how to do ddns with cloudflare's argo tunnels, and now i can figure out how to do other cool server stuff!</description>
 			<pubDate>Tue, 24 Dec 2024 @590</pubDate>
+			<description>i finally figured out how to do ddns with cloudflare's argo tunnels, and now i can figure out how to do other cool server stuff!</description>
 		</item>
 		<item>
 			<title>webserver3.html - simple server status reporting for visitors</title>
 			<link>https://elite784.online/sections/projects/webserver/webserve3.html</link>
-			<guid>https://elite784.online/sections/projects/webserver/webserve3.html</guid>
-			<description>i implemented a simple script that reports the line status of the server</description>
 			<pubDate>Wed, 15 Jan 2025 @737</pubDate>
+			<description>i implemented a simple script that reports the line status of the server</description>
 		</item>
 		<item>
 			<title>webserverSP1-1.html - (an attempt at) running an aim server...</title>
 			<link>https://elite784.online/sections/projects/webserver/aim/webserve-sp1-1.html</link>
-			<guid>https://elite784.online/sections/projects/webserver/aim/webserve-sp1-1.html</guid>
-			<description>pain, suffering, and other negative things happen while i try to run an aim server.</description>
 			<pubDate>Thu, 13 Feb 2025 @817</pubDate>
+			<description>pain, suffering, and other negative things happen while i try to run an aim server.</description>
+			
 		</item>
 	</channel>
 </rss>
