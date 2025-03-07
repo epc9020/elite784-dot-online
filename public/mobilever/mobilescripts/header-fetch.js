@@ -29,10 +29,3 @@
   const headerHTML = await headerHTMLRequest.text();
   document.querySelector('#gettodolist').innerHTML = headerHTML;
 })();
-function rssmobile() {
-  (async function () {
-  const headerHTMLRequest =  await fetch('https://rss.bloople.net/?url=https%3A%2F%2Felite784.online%2Frss784.xml&codegen=js');
-  const headerHTML =  await headerHTMLRequest.text();
-  document.querySelector('#rssbox').innerHTML = headerHTML;
-})();
-}
