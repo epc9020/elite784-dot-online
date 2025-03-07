@@ -7,7 +7,7 @@ fetch("https://status.cafe/users/eliteproot784/status.json")
       document.getElementById("statuscafe-content").innerHTML = "empty thought"
       return
     }
-    document.getElementById("statuscafe-username").innerHTML = '<a href="https://status.cafe/users/eliteproot784" target="_blank">' + r.author + '</a> ' + "says:"
-    document.getElementById("statuscafe-content").innerHTML = r.content
+    document.getElementById("statuscafe-username").innerHTML = '<a href="https://status.cafe/users/eliteproot784" target="_blank">' + "elite784" + '</a> ' + "says:"
+    document.getElementById("statuscafe-content").innerHTML = r.content + "    " + r.face
     document.getElementById("statuscafe-timeAgo").innerHTML = ' (' + r.timeAgo + ')'
   })
