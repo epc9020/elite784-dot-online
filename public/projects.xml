@@ -7,40 +7,11 @@
 		<description>screaming project shit</description>
 		<language>en-us</language>
 		<item>
-			<title>a projects page woah!</title>
-			<link>https://elite784.online/sections/projects</link>
-			<pubDate>Thu, 21 Mar 2024 12:10:00 EST</pubDate>
-			<description>project stuff :3</description>
-		</item>
-		<item>
-			<title>webserve1.html - figuring out ddns</title>
-			<link>https://elite784.online/sections/projects/webserver/webserve1.html</link>
-			<pubDate>Mon, 4 Apr 2024 @964.63</pubDate>
-			<description>im trying to figure out ddns</description>
-		</item>
-		<item>
-			<title>directory1.html - another directory site</title>
-			<link>https://elite784.online/sections/projects/thedirectorysite/directory1.html</link>
-			<pubDate>Wed, 24 Apr 2024 @741</pubDate>
-			<description>im tired.</description>
-		</item>
-		<item>
-			<title>directory2.html - just one image</title>
-			<link>https://elite784.online/sections/projects/thedirectorysite/directory2.html</link>
-			<pubDate>Mon, 29 Apr 2024 @722</pubDate>
-			<description>have one singular image of the site</description>
-		</item>
-		<item>
-			<title>directory3.html - alpha phase almost done.!</title>
-			<link>https://elite784.online/sections/projects/thedirectorysite/directory3.html</link>
-			<pubDate>Mon, 8 Sep 2024 @728</pubDate>
-			<description>the alpha development phase for the directory is almost finished, possible closed beta soon...</description>
-		</item>
-		<item>
-			<title>webserver2.html - i can host my own sites now!</title>
-			<link>https://elite784.online/sections/projects/webserver/webserve2.html</link>
-			<pubDate>Tue, 24 Dec 2024 @590</pubDate>
-			<description>i finally figured out how to do ddns with cloudflare's argo tunnels, and now i can figure out how to do other cool server stuff!</description>
+			<title>webserverSP1-1.html - (an attempt at) running an aim server...</title>
+			<link>https://elite784.online/sections/projects/webserver/aim/webserve-sp1-1.html</link>
+			<pubDate>Thu, 13 Feb 2025 @817</pubDate>
+			<description>pain, suffering, and other negative things happen while i try to run an aim server.</description>
+			
 		</item>
 		<item>
 			<title>webserver3.html - simple server status reporting for visitors</title>
@@ -49,11 +20,41 @@
 			<description>i implemented a simple script that reports the line status of the server</description>
 		</item>
 		<item>
-			<title>webserverSP1-1.html - (an attempt at) running an aim server...</title>
-			<link>https://elite784.online/sections/projects/webserver/aim/webserve-sp1-1.html</link>
-			<pubDate>Thu, 13 Feb 2025 @817</pubDate>
-			<description>pain, suffering, and other negative things happen while i try to run an aim server.</description>
-			
+			<title>webserver2.html - i can host my own sites now!</title>
+			<link>https://elite784.online/sections/projects/webserver/webserve2.html</link>
+			<pubDate>Tue, 24 Dec 2024 @590</pubDate>
+			<description>i finally figured out how to do ddns with cloudflare's argo tunnels, and now i can figure out how to do other cool server stuff!</description>
+		</item>
+		<item>
+			<title>directory3.html - alpha phase almost done.!</title>
+			<link>https://elite784.online/sections/projects/thedirectorysite/directory3.html</link>
+			<pubDate>Mon, 8 Sep 2024 @728</pubDate>
+			<description>the alpha development phase for the directory is almost finished, possible closed beta soon...</description>
+		</item>
+		<item>
+			<title>directory2.html - just one image</title>
+			<link>https://elite784.online/sections/projects/thedirectorysite/directory2.html</link>
+			<pubDate>Mon, 29 Apr 2024 @722</pubDate>
+			<description>have one singular image of the site</description>
+		</item>
+		
+		<item>
+			<title>directory1.html - another directory site</title>
+			<link>https://elite784.online/sections/projects/thedirectorysite/directory1.html</link>
+			<pubDate>Wed, 24 Apr 2024 @741</pubDate>
+			<description>im tired.</description>
+		</item>
+		<item>
+			<title>webserve1.html - figuring out ddns</title>
+			<link>https://elite784.online/sections/projects/webserver/webserve1.html</link>
+			<pubDate>Mon, 4 Apr 2024 @964.63</pubDate>
+			<description>im trying to figure out ddns</description>
+		</item>
+		<item>
+			<title>a projects page woah!</title>
+			<link>https://elite784.online/sections/projects</link>
+			<pubDate>Thu, 21 Mar 2024 12:10:00 EST</pubDate>
+			<description>project stuff :3</description>
 		</item>
 	</channel>
 </rss>

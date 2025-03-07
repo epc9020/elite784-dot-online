@@ -7,27 +7,27 @@
     <description>another really simple syndication feed of web logs from somebody on the internet. copy the link to this page to your prefered rss syndicator to subscribe!</description>
     <language>en-us</language>
     <item>
-    <title>im building a small tv station and the fcc cant do shit about it!!</title>
-    <link>https://elite784.online/sections/blogs/building-an-analog-tv-transmitter</link>
-    <pubDate>Mon, 11 Dec 2023 19:27:27 EST</pubDate>
-    <description>a fun project for me to write about!</description>
+      <title>new page coming soon, vhs stuff</title>
+      <pubDate>Fri, 4 Oct 2024 @641</pubDate>
+      <description>making a new page for my video tapes, soon... [this rss does not contain a blog link]</description>
     </item>
     <item>
-      <title>building an analog tv transmitter 2</title>
-      <link>https://elite784.online/sections/blogs/analog-transmitter2</link>
-      <pubDate>Wen, 13 Dec 2023 19:12:00 EST</pubDate>
-      <description>An update about the schematics and I just got the capture card.</description>
-    </item>
-	  <item>
 		  <title>sleep deprevation at 2 am!!!</title>
 		  <link>https://elite784.online/sections/blogs/sleep-deprived</link>
 		  <pubDate>Wen, 24 Apr 2024 @582</pubDate>
 		  <description>Writing stuff at 2 in the morn, some project thing and thoughts about improving the site.</description>
 	  </item>
     <item>
-      <title>new page coming soon, vhs stuff</title>
-      <pubDate>Fri, 4 Oct 2024 @641</pubDate>
-      <description>making a new page for my video tapes, soon... [this rss does not contain a blog link]</description>
+      <title>building an analog tv transmitter 2</title>
+      <link>https://elite784.online/sections/blogs/analog-transmitter2</link>
+      <pubDate>Wen, 13 Dec 2023 19:12:00 EST</pubDate>
+      <description>An update about the schematics and I just got the capture card.</description>
+    </item>
+    <item>
+    <title>im building a small tv station and the fcc cant do shit about it!!</title>
+    <link>https://elite784.online/sections/blogs/building-an-analog-tv-transmitter</link>
+    <pubDate>Mon, 11 Dec 2023 19:27:27 EST</pubDate>
+    <description>a fun project for me to write about!</description>
     </item>
   </channel>
 </rss>
