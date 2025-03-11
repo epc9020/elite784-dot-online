@@ -86,14 +86,18 @@ p {
 
 a:link {
     color: #a5cddf;
+    font-weight: bold;
 }
 
 a:visited {
-    color: #3e9dc9;
+    color: #62a9ca;
+    font-weight: bold;
 }
 
 a:hover {
     color: white;
+    font-weight:bold;
+    font-style:italic;
 }
 
 .updatesbox {
