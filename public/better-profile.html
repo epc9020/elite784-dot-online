@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
+    <title>Better-Profile Loading!! - ELITE784[dot]Online</title>
+    <link rel="icon" href="/favicon.gif"/>
+    <link href="/css/blogs.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body style="width: calc(80vw);max-width:900px">
+    <main>
+        <p>Wait a sec!! I'm looking to see what you're using to look at this with open eyes! o(^^)o</p><br>
+        <i>i really hope you have javascript enabled, because if you dont, this redirect isnt really going to work.</i><br>
+        <em>Nonetheless!</em>, if you don't want to enable javascript (or you really cant use it), <a href="better-profile/desktop.html">heres the desktop designed page</a> and <a href="better-profile/mobile.html">heres the mobile designed page</a>.<br>
+        if you want to visit my website, you <em>WILL</em> need javascript to use it.
+
+    </main>
+    <script>
+        window.isMobile = function () {
+            if (window.matchMedia("(any-hover:none)").matches) {
+                open("better-profile/mobile.html", "_self")
+            } else {
+                open("better-profile/desktop.html", "_self")
+            }   
+        };
+        window.isMobile()
+    </script>
+  </body>
+</html>

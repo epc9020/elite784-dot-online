@@ -30,19 +30,25 @@ body {
     background: none;
     font-family: "px-ml", "windowsreg", Verdana;
     margin: 0 30px 0 10px;
-    width: calc(0px + 98vw - 30px);
+    width: calc(0px + 98vw - 10px);
     max-width: 600px;
 }
-
+p {
+    padding: 10px;
+}
 
 img {
     width: calc(95vw);
     max-width:500px;
 }
+.pubdate {
+    color:lightgray;
+    font-size:15px;
+    margin-left: 10px
+}
 span {
     color:lightgray;
     font-size:15px;
-    margin-left: 18px
 }
 
 iframe {
@@ -74,16 +80,18 @@ p {
     src: url("/fonts/Windows-Regular.ttf");
 }
 
-
-
 a:link {
     color: #a5cddf;
+    font-weight: bold;
 }
 
 a:visited {
-    color: #1e81b0;
+    color: #62a9ca;
+    font-weight: bold;
 }
 
 a:hover {
     color: white;
+    font-weight:bold;
+    font-style:italic;
 }

@@ -43,3 +43,5 @@ public/.gitignore
 /egg.xml
 /rss.css
 /teletext/*
+/better-profile/*
+/better-profile.html
