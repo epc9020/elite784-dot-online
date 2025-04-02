@@ -10,33 +10,109 @@
     <link rel="icon" href="/favicon.ico">
     <script src="/scripts/isMobile.js" ></script>
     <script src="https://webdelfuk.elite784.online/scripts/status.js"></script>
+    <script src="https://kallistero.neocities.org/things/i/made/scripts/kallistero_script_loader.js"></script>
   </head>
-  <body>
+
+  <body style="text-align: center;">
+    <div>
       <header>
-          <img  src="elite784dotonlinebig.png" height="115">
-          
+          <img src="elite784dotonlinebig.png" height="115"><br>
       </header>
+      <img class="divsmpte" src="SMPTE-bar.gif">
       <main>
-          <h1>now entering: elite's website</h1>
-          <img src="/SMPTE-bar.gif" width="400">
           <div><a href="http://www.mabsland.com/Adoption.html"><img src="/buttons/Censor_14c.gif" alt="This site is rated WEB-14"></a><img src="/buttons/bestviewedcomp.gif" title="You cant see this on phone haha"><a href="https://neocities.org"><img src="/buttons/neocities_hosted2.gif" alt="Elite784 dot online is hosted on NeoCities" title="Elite784.online is hosted on NeoCities!"></a><img src="/buttons/bestviewfirefox.gif" title="This site best viewed on Firefo- WAIT SAFARI??" alt="Best viewed on Fire- WAIT SAFARI??"></div>
-          returning visitors please CTRL+SHIFT+R or cmd+option+R on updated pages or every page<br>
-          mobile users will automatically be redirected to ELITE784[mobile]
+          returning visitors please reload with CTRL+SHIFT+R or cmd+option+R<br>
           <br>
           <a href="homepage.html" id="theDoor">CONTINUE TO WEBSITE >>></a><br>
-          <a href="https://webdelfuk.elite784.online">CONNECT TO HOME SERVER >>></a> [server status: <span style="color:red" id="serverstat">OFF-LINE</span>]
-          <p style="margin-right:14px;">This site is always under some kind of development. If anything appears broken, or just wanna say hi, email me! <a href="mailto:webmaster@elite784.online">webmaster@elite784.online</a></p>
-          <h3>browser support</h3>
-          <p>this site contains marquees, which firefox decided to break. currently working on replacing all the marquees with a jquery based one, so that it'll all work like it initially did when i was using firefox 126 to develop this site.</p>
+          <a href="https://webdelfuk.elite784.online">CONNECT TO HOME SERVER >>></a><br> [server status: <span style="color:red" id="serverstat">OFF-LINE</span>]
+          <br><a href="better-profile.html">WEBMASTER CHECK >>></a>
             
 
       </main>
+      <img class="divsmpte" src="SMPTE-bar.gif">
       <footer>
-          <img src="/SMPTE-bar.gif" width="400">
-          <p><b><i>©MMXXIII 784 Studios</i></b></p>
+          <br>
+          <b>©MMXXIII-MMXXV 784 Studios, exept where noted</b><br>
+          <b>All web effects from Kallistero's Effect Maker</b><br>
+          <a class="a" href="https://kallistero.neocities.org/">kallistero.neocities.org</a>
       </footer>
+      </div>
+      <div id="background"></div>
       <script>checkstat();</script>
       <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script >window.isMobile()</script>
   <script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="e1949692361b16831d73bec4-|49" defer></script>
+    <script>
+        let starfieldConfig = randomStaticStarfield(true);
+    </script>
+  <script>
+    KALLISTERO_SCRIPT.run('staticstarfield', () => {
+        const parentElement = document.getElementById('background');
+        
+        const config = randomStaticStarfield(
+            parentElement, // parent element 
+            'effect-maker-version-000', // effect version (for dev to keep later versions of the effect backwards compatible) 
+            '', // id for this instance of this effect 
+            'absolute', // CSS position type for this effect 
+            100, // width of the effect within its parent 
+            100, // height of the effect within its parent 
+            '%', // units of measurement for the above 2 
+            'hidden', // CSS overflow type for this effect
+            '#ffffff', // star color 
+            3.73204931426635, // smallest star size 
+            6.236080337709312, // largest star size
+            'px', // units of measurement for star size 
+            0.7730030478779167, // number of stars for every 1000 pixels covered by the effect
+            0, // minimum distance from the left where stars can spawn 
+            100, // maximum distance from the left where stars can spawn 
+            0, // minimum distance from the bottom where stars can spawn 
+            100, // maximum distance from the bottom where stars can spawn 
+            '%', // units of measurement for the above 4 
+            'none', // CSS pointer-events property 
+            -1 // Z-index 
+        );
+    });
+</script>
+<script>
+  KALLISTERO_SCRIPT.run('twinklestars', () => {
+      const parentElement = document.getElementById('background');
+      
+      const config = randomTwinkleStars(
+          parentElement, // parent element 
+          'effect-maker-version-000', // effect version (for dev to keep later versions of the effect backwards compatible) 
+          '', // id for this instance of this effect 
+          'absolute', // CSS position type for this effect 
+          100, // width of the effect within its parent 
+          100, // height of the effect within its parent 
+          '%', // units of measurement for the above 2 
+          'hidden', // CSS overflow type for this effect
+          '#3584e4', // star color 
+          7.855936619270176, // smallest size a star can grow to 
+          14.991260656277472, // largest size a star can grow to 
+          'px', // units of measurement for star size 
+          4.879914745864567, // percent chance (per millisecond) for a star to spawn 
+          0, // minimum distance from the left where stars can spawn 
+          100, // maximum distance from the left where stars can spawn 
+          0, // minimum distance from the bottom where stars can spawn 
+          100, // maximum distance from the bottom where stars can spawn 
+          '%', // units of measurement for the above 4 
+          176.79749126564928, // shortest star lifespan in ms 
+          7545.854532172682, // longest star lifespan in ms 
+          'none', // CSS pointer-events property 
+          -1, // Z-index 
+          5 // framerate (in frames per second) 
+      );
+  });
+</script>
+<style>
+  a {
+    font-size: x-large;
+  }
+  .divsmpte {
+    width:380px;
+  }
+  .a {
+    font-size:medium
+  }
+</style>
 </body>
 </html>
