@@ -22,6 +22,7 @@
     </main>
     <footer>
         <div class="footer-container" style="overflow:hidden;"></div>
+        <div class="buttons-container"></div>
     </footer>
   </div>
     <script src="/scripts/kallistero-gridbgn.js"></script>
