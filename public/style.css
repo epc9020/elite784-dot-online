@@ -82,6 +82,9 @@ p {
     src: url("/fonts/Windows-Regular.ttf");
 }
 
+html {
+    image-rendering: ;
+}
 
 
 a:link {
