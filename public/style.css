@@ -73,7 +73,7 @@ main {
 p {
     font-family: "windowsreg", "px-ml";
     position: relative;
-    left: 12px;
+    margin: 20px;
     font-size: 20px;
 }
 
