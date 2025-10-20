@@ -6,6 +6,14 @@
     <link>https://elite784.online/</link>
     <description>another really simple syndication feed of web logs from somebody on the internet. copy the link to this page to your prefered rss syndicator to subscribe!</description>
     <language>en-us</language>
+    <h1>what is an rss?</h1>
+    <p>a Really Simple Syndication feed, or RSS feed, is a kind of feed you can subscribe to get updates from using an RSS agregating program or app. this allows webmasters to let you know of new things on their site without you having to get on here regularly to look for the updates yourself! for example, this feed i use to let you know of new blogs i write!</p>
+    <item>
+      <title>i went to a movie about miku and 24 or so other characters in a len cosplay i made with things mostly laying around the house</title>
+      <link>https://elite784.online/sections/blogs/miku-movie.html</link>
+      <pubDate>Sun, 19 Oct 2025 @560</pubDate>
+      <description>5 months of monitoring (funny). five months of radio silence from the movie chain holding a monopoly on movie theaters here. five months of waiting. finally... i can say "i watched the project sekai movie!" so i'll say it now... but in caps this time. I WATCHED THE PROJECT SEKAI MOVIE HOLY SHIT I ALMOST CRIED AT THE END QWQ</description>
+    </item>
     <item>
       <title>i went to comic con for the first time >w&#60; (PRCC25)</title>
       <link>https://elite784.online/sections/blogs/pr-comic-con1.html</link>
