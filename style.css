@@ -1,0 +1,250 @@
+html {
+    background-color: #03051c;
+    background-size: cover;
+}
+
+.vcrTITLE {
+    font-family: "vcr-mono";
+    font-style: italic;
+    font-size: 30px;
+    color: #7d7d7d;
+}
+
+.imgborder {
+    border: 2px solid blue;
+    position: relative;
+    left: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "vcr-mono", Verdana;
+    font-style: italic;
+    font-weight: normal;
+    text-shadow: -1px 1px 0 #000000, 1px 1px 0 #000000, 1px -1px 0 #000000, -1px -1px 0 #000000;
+}
+
+
+body {
+    color: white;
+    background: none;
+    font-family: "windowsreg", "px-ml", Verdana;
+}
+
+.maindivpage {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-image: url('background2.gif');
+    z-index: 0;
+}
+
+main {
+    position: relative;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+.blogpost {
+    position: relative;
+    left: 13px;
+    width: 830px;
+}
+
+.footer-container {
+    border-style: none;
+}
+
+
+.updateTEXT {
+    font-size: 14px;
+    margin-right: 20px
+}
+
+@font-face {
+    font-family: "vcr-mono";
+    src: url("/fonts/VCR_OSD_MONO.ttf");
+}
+@font-face {
+    font-family: "px-ml";
+    src: url("/fonts/lanapixel_everything/LanaPixel.ttf");
+}
+
+p {
+    font-family: "windowsreg", "px-ml";
+    position: relative;
+    margin: 20px;
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: "windowsreg";
+    src: url("/fonts/Windows-Regular.ttf");
+}
+
+html {
+    image-rendering: ;
+}
+
+
+a:link {
+    color: #a5cddf;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #62a9ca;
+    font-weight: bold;
+}
+
+a:hover {
+    color: white;
+    font-weight:bold;
+    font-style:italic;
+}
+
+.updatesbox {
+    position: absolute;
+    right: 0px;
+    top: -3px;
+    bottom: 36px;
+    width: 267px;
+    height: 300px;
+    background-image: url('/images/updatebkgrd.gif');
+    border: 1px white solid;
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+}
+
+.box1a {
+    position: relative;
+    left: 10px;
+    width: 850px;
+}
+
+.box1b {
+    position: relative;
+    left: 2px;
+    bottom: 3px;
+    border: 1px solid lightblue;
+    width: 550px;
+    height: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.box1btitle {
+    text-align: center;
+    position: relative;
+    top: 5px;
+    font-family: 'vcr-mono';
+    font-size: 23px;
+    text-shadow: -1px 1px 0 #000000, 1px 1px 0 #000000, 1px -1px 0 #000000, -1px -1px 0 #000000;
+}
+
+.box1btext {
+    z-index: 1;
+    margin-left: 225px;
+    margin-right: 23px
+}
+
+.todolista {
+    position: relative;
+    left: 10px;
+    width: 390px;
+}
+
+.todolistb {
+    position: relative;
+    left: 1px;
+    top: -30px
+}
+
+.todolistTitle {
+    background: blue;
+    margin-right: 408px;
+    position: relative;
+    top: -20px;
+    font-family: "vcr-mono";
+    font-size: 23px;
+    font-weight: normal;
+    text-shadow: -1px 1px 0 #000000, 1px 1px 0 #000000, 1px -1px 0 #000000, -1px -1px 0 #000000;
+}
+
+.todolistin {
+    width: 420px;
+    height: 240px;
+    border: 1px blue solid;
+    position: relative;
+    top: -40px;
+}
+
+.divhorizontal, .todolistbox, .statusbox {
+    display: flex;
+}
+
+
+.fb-container1o {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 16px 13px;
+}
+
+.fb-container1ia, .fb-container1ib {
+    display: flex;
+    flex-direction: column;
+}
+
+.webrings-box {
+    border: 1px white solid;
+    width: 380px;
+}
+
+.grid-fade {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    height: 900px;
+    width: calc(30% + 10px);
+    margin-left: auto;
+    margin-right: auto;
+    background: black;
+    box-shadow: 0 0 60px 80px black;
+    z-index: -1;
+}
+
+#statuscafe {
+    padding: .5em;
+    background-color: azure;
+    border: 1px solid midnightblue;
+}
+
+#statuscafe-username {
+    margin-bottom: .5em;
+    font-family: "vcr-mono";
+    color: azure;
+}
+
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+    font-family: "vcr-mono";
+    color: white;
+}
+
+#statuscafe-timeAgo {
+    font-family: "windowsreg";
+    color: grey;
+}
+
+.imagegallerycontain {
+    display: flex;
+    overflow:scroll;
+    justify-content: center;
+    gap: 15px 13px;
+}
+
+.imagegalleryfile {
+    height: 200px;
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet type="text/css" href="/css/rss.css"?>
+
+<rss version="2.0">
+
+  <channel>
+    <title>elite784's web logs!</title>
+    <link>https://elite784.online/</link>
+    <description>another really simple syndication feed of web logs from somebody on the internet. copy the link to this page to your prefered rss syndicator to subscribe!</description>
+    <language>en-us</language>
+    <h1>what is an rss?</h1>
+    <p>a Really Simple Syndication feed, or RSS feed, is a kind of feed you can subscribe to get updates from using an RSS agregating program or app. this allows webmasters to let you know of new things on their site without you having to get on here regularly to look for the updates yourself! for example, this feed i use to let you know of new blogs i write!</p>
+    <item>
+      <title>i went to a movie about miku and 24 or so other characters in a len cosplay i made with things mostly laying around the house</title>
+      <link>https://elite784.online/sections/blogs/miku-movie.html</link>
+      <pubDate>Sun, 20 Oct 2025 @602</pubDate>
+      <description>5 months of monitoring (funny). five months of waiting. finally... i can say "i watched the project sekai movie!" this blog isnt a review of the movie, more so it documents what the hell happened these past 5 months ive been waiting for it, and the cosplay i made with mostly scraps and reggo clothes in my closet</description>
+    </item>
+    <item>
+      <title>i went to comic con for the first time >w&#60; (PRCC25)</title>
+      <link>https://elite784.online/sections/blogs/pr-comic-con1.html</link>
+      <pubDate>Fri, 5 June 2025 @744</pubDate>
+      <description>my first experience at a comic con!</description>
+    </item>
+    <item>
+      <title>new page coming soon, vhs stuff</title>
+      <pubDate>Fri, 4 Oct 2024 @641</pubDate>
+      <description>making a new page for my video tapes, soon... [this rss does not contain a blog link]</description>
+    </item>
+    <item>
+		  <title>sleep deprevation at 2 am!!!</title>
+		  <link>https://elite784.online/sections/blogs/sleep-deprived</link>
+		  <pubDate>Wen, 24 Apr 2024 @582</pubDate>
+		  <description>Writing stuff at 2 in the morn, some project thing and thoughts about improving the site.</description>
+	  </item>
+    <item>
+      <title>building an analog tv transmitter 2</title>
+      <link>https://elite784.online/sections/blogs/analog-transmitter2</link>
+      <pubDate>Wen, 13 Dec 2023 19:12:00 EST</pubDate>
+      <description>An update about the schematics and I just got the capture card.</description>
+    </item>
+    <item>
+    <title>im building a small tv station and the fcc cant do shit about it!!</title>
+    <link>https://elite784.online/sections/blogs/building-an-analog-tv-transmitter</link>
+    <pubDate>Mon, 11 Dec 2023 19:27:27 EST</pubDate>
+    <description>a fun project for me to write about!</description>
+    </item>
+  </channel>
+</rss>
+  

@@ -1,0 +1,68 @@
+rss {
+	color: #ffffff;
+	background: #000; 
+	margin: 0 auto;
+	max-width: 500px;
+	width:100%;
+    font-family: "elite784";
+}
+
+title {
+	font-style: italic;
+	color: #0084ff;
+}
+
+channel *,
+item * {
+	display: block;
+	margin: 8px 0;
+}
+
+channel title {
+	font-size: xx-large;
+	font-style: italic;
+	font-weight: bold;
+    font-family: "elite784";
+	color: #004ae9;
+	display: block;
+	;
+	margin: 8px 0;
+}
+
+@font-face {
+    font-family: "elite784";
+    src: url('/fonts/lanapixel_everything/LanaPixel.ttf');
+}
+
+channel language,
+channel link,
+item comments {
+	display: none;
+}
+
+item {
+	color: #ffffff;
+	border: 4px outset #00b7ff;
+	padding: 8px;
+	margin: 4px;
+}
+
+item title {
+	font-size: x-large;
+	font-style: italic;
+	font-weight: bold;
+	color: #ff0000;
+	display: block;
+}
+
+item description {
+	text-align: justify;
+	hyphens: auto;
+}
+
+item link,
+item pubDate {
+	font-size: smaller;
+	display: block;
+}
+
