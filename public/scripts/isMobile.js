@@ -18,3 +18,4 @@ window.isMobile = function () {
         button.setAttribute("href", "/homepage.html");
     }
 };
+window.isMobile()

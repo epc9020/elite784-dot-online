@@ -10,5 +10,8 @@
         "/": "/home/elite784/Documents/elite784-dot-online/public"
     },
     "path-autocomplete.disableUpOneFolder": false,
-    "open-php-html-js-in-browser.showStatusBarItem": true
+    "open-php-html-js-in-browser.showStatusBarItem": true,
+    "path-autocomplete.excludedItems": {
+        
+    }
 }

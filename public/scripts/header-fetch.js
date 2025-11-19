@@ -51,7 +51,7 @@ copied and pasted by elite784
 (async function () {
 	const headerHTMLRequest = await fetch('/get/projectlink.html');
 	const headerHTML = await headerHTMLRequest.text();
-	document.querySelector('.projectLink').innerHTML = headerHTML;
+	document.querySelector('#projectLink').innerHTML = headerHTML;
 })();
 (async function () {
 	const headerHTMLRequest = await fetch('/get/projimg.html');
