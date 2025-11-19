@@ -1,0 +1,17 @@
+{
+    "fiveServer.injectBody": true,
+    "fiveServer.navigate": true,
+    "fiveServer.openTerminal": true,
+    "fiveServer.highlight": true,
+    "path-autocomplete.ignoredFilesPattern": "",
+    "path-autocomplete.pathMappings": {
+        
+
+        "/": "/home/elite784/Documents/elite784-dot-online/public"
+    },
+    "path-autocomplete.disableUpOneFolder": false,
+    "open-php-html-js-in-browser.showStatusBarItem": true,
+    "path-autocomplete.excludedItems": {
+        
+    }
+}
